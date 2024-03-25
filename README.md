@@ -1,7 +1,7 @@
 # LSTM-from-Scratch
  Lecture material (codes, pdf). LSTM with numpy only
 
- Step-by-step description to build, test and run n LSTM ("many to many") based on the RNN package. 
+ Step-by-step description to build, test and run a LSTM ("many to many") based on the RNN package. 
 
 ## chapters
  1) building and testing a LSTM cell
