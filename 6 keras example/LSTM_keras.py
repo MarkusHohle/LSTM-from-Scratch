@@ -142,7 +142,7 @@ def NormAndScale():
     scaled_new     = scaled_new.astype('float32') #ensure all data is float
 
     
-    #overriding old values with scaled/normalized
+    #overwriding old values with scaled/normalized
     values         = pd.DataFrame(scaled_new)
     values.columns = ['pollution', 'dew', 'temp', 'press',\
                       'wnd_spd [SE]','wnd_spd [NW]', 'wnd_spd [NE]',\
